@@ -1,7 +1,7 @@
 defaultUser: guest
 app:
-  image: vprocontainers/vprofileapp
-  tag: latest
+  image: 442426880114.dkr.ecr.us-east-1.amazonaws.com/vprofileappimg
+  tag: 75e7322
   replicas: 1
   containerPort: 8080
   servicePort: 8080
